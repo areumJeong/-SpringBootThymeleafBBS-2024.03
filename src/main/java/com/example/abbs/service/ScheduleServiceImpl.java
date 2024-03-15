@@ -36,6 +36,7 @@ public class ScheduleServiceImpl implements ScheduleService {
 	public void insertSchedule(Schedule schedule) {
 		schedDao.insertSchedule(schedule);
 	}
+	
 
 	@Override
 	public void updateSchedule(Schedule schedule) {
